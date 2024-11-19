@@ -1,0 +1,56 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Django migration files
+*/migrations/*
+
+# Django's secret key file
+*.env
+
+# SQLite database file
+db.sqlite3
+
+# Media and Static files (uploaded files and collected static)
+media/
+static/
+
+# PyCharm or other IDEs configuration files
+.idea/
+
+# VS Code settings
+.vscode/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Local settings
+local_settings.py
+
+# Files created by operating systems
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# Coverage reports
+.coverage
+coverage.xml
+nosetests.xml
+test_*.xml
+
+# Dependency directories
+venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+
+# Package distribution files
+*.egg-info/
+dist/
+build/
+
+# Excel files (uploaded/generated files)
+*.xlsx
