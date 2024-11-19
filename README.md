@@ -1,18 +1,23 @@
-Features
+FEATURES
+
 File Upload:
-Referral fee file and cost file can be uploaded through separate pages.
-Uploaded files are saved in the media/ directory.
+   Referral fee file and cost file can be uploaded through separate pages.
+   Uploaded files are saved in the media/ directory.
+
 File Processing:
-Merges the cost file with the referral fee file based on Product Name.
-Calculates the Total Cost for each product.
-Outputs a new Excel file with the original data and the calculated Total Cost column.
+   Merges the cost file with the referral fee file based on Product Name.
+   Calculates the Total Cost for each product.
+   Outputs a new Excel file with the original data and the calculated Total Cost column.
+
 Downloadable Output:
-The processed file can be downloaded in .xlsx format.
+   The processed file can be downloaded in .xlsx format.
+
 Prerequisites
-Python 3.x
-Django
-Pandas
-OpenPyXL
+   Python 3.x
+   Django
+   Pandas
+   OpenPyXL
+
 How to Run
 Step 1: Clone the Repository
 git clone https://github.com/your-username/django-excel-app.git
